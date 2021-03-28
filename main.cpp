@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     cout << "Press Ctrl-C to stop..." << endl;
+    cout << "TAXI FARES" << endl;
 
     while (true)
     {
@@ -15,7 +16,7 @@ int main()
 
         // Get information about the customer's trip
         int distance;
-        cout << "How many miles are you traveling by Boston taxi? ";
+        cout << "How many miles are you traveling by Boston's taxi? ";
         cin >> distance;
         char airport;
         cout << "Are you taking taxi from an airport ([Y]es/[N]o)? ";
